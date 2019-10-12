@@ -26,7 +26,7 @@ function userMsg(wxmsg, retmsg) {
             return formatMsg(retmsg);
 
         }else if (wxmsg.Content == 'who'){
-            retmsg.msg = '姓名：王亚红 \n 学号：2017011743';
+            retmsg.msg = '姓名：王亚红 \n 学号：2017011743 \n 班级：2017级2班';
             retmsg.msgtype = 'text';
             return formatMsg(retmsg);
         }else {
